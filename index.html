@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option">
+                        <img src="./Assets/library_icon.png"></img>
+                        <a href="#">Your Library</a>
+
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="playlist-option">
+                    <div class="playlist">Playlist</div>
+                </div>
+                <div class="recent-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="recent">
+                        <div class="recent-text">Recent</div>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="lib-box-1">
+                        <div class="box-1-img">
+                            <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="box-1-text">
+                            <div class="p-1">Liked Songs</div>
+                            <div class="p-2"><i class="fa-solid fa-thumbtack" style="color: #1ebe46;"></i>&nbsp;Playlist
+                                <span class="dot"></span> 1 song</div>
+                        </div>
+                    </div>
+                    <div class="lib-box-1">
+                        <div class="box-2-img">
+                            <i class="fa-solid fa-music" style="color: #fbfcfe;"></i>
+                        </div>
+                        <div class="box-1-text">
+                            <div class="p-1">My Playlist #1</div>
+                            <div class="p-2">Playlist <span class="dot"></span> Priyank</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="nav-main-content">
+                <div class="nav-icon">
+                    <div class="backward-icon">
+                        <img src="./Assets/backward_icon.png" alt="backward_icon">
+                    </div>
+                    <div class="forward-icon">
+                        <img src="./Assets/forward_icon.png" alt="forward_icon">
+                    </div>
+                </div>
+                <div class="nav-badge">
+                    <span class="sign-up">Explore Premium</span>
+                    <span class="login"><i class="fa-regular fa-circle-down"></i>&nbsp; Install App</span>
+                    <span class="user"><i class="fa-regular fa-user" style="color: #fff;"></i></span>
+                </div>
+            </div>
+            <div class="main-content-body">
+                <div class="head-section">
+                    <h2>Recently played</h2>
+                </div>
+                <div class="section section-1">
+                    <div class="cards card-1">
+                        <div class="card-img card-1-img-1 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Top 50 - Global</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Your daily update of the most played tracks right</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-section">
+                    <h2>Spotify original & exclusive podcast</h2>
+                    <a href="#" class="card-chow">Show all</a>
+                </div>
+                <div class="section section-2">
+                    <div class="cards card-2">
+                        <div class="card-img card-2-img-1 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">True Story Bro! with Triggered Insaan</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Spotify</p>
+                        </div>
+                    </div>
+                    <div class="cards card-2">
+                        <div class="card-img card-2-img-2 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">The Horror Show by Khooni Monday - Scary Stories in Hindi</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">TMV Studios</p>
+                        </div>
+                    </div>
+                    <div class="cards card-2">
+                        <div class="card-img card-2-img-3 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Chanakya Niti</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Kiran Chavda</p>
+                        </div>
+                    </div>
+                    <div class="cards card-2    ">
+                        <div class="card-img card-2-img-4 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Decode Dil with Ekta</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Spotify Studios</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-section">
+                    <h2>Trending now</h2>
+                    <a href="#" class="card-chow">Show all</a>
+                </div>
+                <div class="section section-3">
+                    <div class="cards card-3">
+                        <div class="card-img card-3-img-1 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Jai Shree Ram</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p"> Ajay-Atul, Ramanand Sagar</p>
+                        </div>
+                    </div>
+                    <div class="cards card-3">
+                        <div class="card-img card-3-img-2 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Rao Sahab</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Latest Release Single</p>
+                        </div>
+                    </div>
+                    <div class="cards card-3">
+                        <div class="card-img card-3-img-3 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Mi Amor</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Sharn, 40k, The Paul</p>
+                        </div>
+                    </div>
+                    <div class="cards card-3    ">
+                        <div class="card-img card-3-img-4 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Lo Aayi Barsaat</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Darshan Raval</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-section">
+                    <h2>Featured Charts</h2>
+                    <a href="#" class="card-chow">Show all</a>
+                </div>
+                <div class="section section-4">
+                    <div class="cards card-4">
+                        <div class="card-img card-4-img-1 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Top Songs - Global</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Your weekly update of the most played tracks right now - Global</p>
+                        </div>
+                    </div>
+                    <div class="cards card-4">
+                        <div class="card-img card-4-img-2 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Top Songs - India</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Your weekly update of the most played tracks right now - India</p>
+                        </div>
+                    </div>
+                    <div class="cards card-4">
+                        <div class="card-img card-4-img-3 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Top 50 - Global</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Your weekly update of the most played tracks right now - Global</p>
+                        </div>
+                    </div>
+                    <div class="cards card-4">
+                        <div class="card-img card-4-img-4 hover-play"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="card-header">
+                            <h5 class="header-overflow">Top 50 - India</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-p">Your weekly update of the most played tracks right now - India<</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-up">
+                        <div class="footer-list-link">
+                            <div class="company">
+                                <h4>Company</h4>
+                                <span><a href="#">About</a></span>
+                                <span><a href="#">Jobs</a></span>
+                                <span><a href="#">For the Record</a></span>
+                            </div>
+                            <div class="communities">
+                                <h4>Communities</h4>
+                                <span><a href="#">For Artists</a></span>
+                                <span><a href="#">Developers</a></span>
+                                <span><a href="#">Advertising</a></span>
+                                <span><a href="#">Investoes</a></span>
+                                <span><a href="#">Vendors</a></span>
+                                <span><a href="#">Spotify for Works</a></span>
+                            </div>
+                            <div class="useful-links">
+                                <h4>Useful links</h4>
+                                <span><a href="#">Support</a></span>
+                                <span><a href="#">For Mobile App</a></span>
+                            </div>
+                        </div>
+                        <div class="social-media">
+                            <span class="social-media-icon"><i class="fa-brands fa-instagram"
+                                    style="color: #ffffff;"></i></span>
+                            <span class="social-media-icon"><i class="fa-brands fa-twitter"
+                                    style="color: #ffffff;"></i></span>
+                            <span class="social-media-icon"><i class="fa-brands fa-facebook"
+                                    style="color: #ffffff;"></i></span>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-terms">
+                        <div class="list-1">
+                            <span>Legal</span>
+                            <span>Privacy Center</span>
+                            <span>Privacy Policy</span>
+                            <span>Cookies</span>
+                            <span>About Ads</span>
+                            <span>Accessibility</span>
+                        </div>
+                        <div class="list-2"><span>&copy; 2023 Spotify AB</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="player-box-1">
+                <div class="play-song-icon-1"><img src="./Assets/lo_ayi_barsat.jpg" alt=""></div>
+                <div class="play-song-icon-2">
+                    <h5>Lo Aayi Barsaat</h5>
+                    <p class="play-song-para">Darshan Raval</p>
+                </div>
+                <div class="play-song-icon-3"><img src="./Homework assets/album_icon1.png" alt=""></div>
+                <div class="play-song-icon-4"><img src="./Homework assets/album_icon2.png" alt=""></div>
+            </div>
+            <div class="player-box-2">
+                <div class="playback-control">
+                    <div class="box-2-icon-1"><img src="./Assets/player_icon1.png" alt=""></div>
+                    <div class="box-2-icon-2"><img src="./Assets/player_icon2.png" alt=""></div>
+                    <div class="box-2-icon-3"><img src="./Assets/player_icon3.png" alt=""></div>
+                    <div class="box-2-icon-4"><img src="./Assets/player_icon4.png" alt=""></div>
+                    <div class="box-2-icon-5"><img src="./Assets/player_icon5.png" alt=""></div>
+                </div>
+                <div class="playback-bar">
+                    <div class="bar-icon-1"></div>
+                </div>
+
+            </div>
+            <div class="player-box-3">
+                <span class="music-img-1"><img src="./Homework assets/controls_icon1.png" alt=""></span>
+                <span class="music-img-2"><img src="./Homework assets/controls_icon3.png" alt=""></span>
+                <span class="music-img-3"><img src="./Homework assets/controls_icon4.png" alt=""></span>
+                <span class="music-img-4"><img src="./Homework assets/controls_icon5.png" alt=""></span>
+                <span class="music-img-5"></span>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
